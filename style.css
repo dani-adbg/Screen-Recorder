@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: dimgray;
+  flex-direction: column;
+}
+
+.btns {
+  display: flex;
+  width: 20vh;
+  height: 5vh;
+  justify-content: center;
+  align-items: center;
+  margin: 3vh;
+  border-radius: 5px;
+  cursor: pointer;
+}
